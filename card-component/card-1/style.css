@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover; /* The object-fit property is used to specify how an <img> or <video> should be resized to fit its container */
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Raleway', sans-serif;
+}
+
+#container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+.card {
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 12px;
+    border: 1px solid #BACDD8;
+}
+
+.tag {
+    padding: 4px 8px;
+    border: 1px solid #E5EAED;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #788697;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+p {
+    font-size: 14px;
+    color: #7F8C9B;
+    line-height: 150%;
+}
+
+button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #0077FF;
+    background-color: #E0EFFF;
+
+    margin: 0 auto; /* center the button. But the button will not be centered because button tag by default is a inline block element */
+
+    display: block; /* therefore inorder to bring the button at the center we need to add display:block property*/
+
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+button:focus, button:hover {
+    background-color: #0077FF;
+    color: #E0EFFF;
+}
+
+.cardDetails {
+    padding: 16px 8px 8px 8px;
+}
